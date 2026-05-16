@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
+import AIAssistant from './AIAssistant';
 
 function Layout() {
   return (
@@ -10,6 +11,7 @@ function Layout() {
           <Outlet />
         </div>
       </main>
+      <AIAssistant />
     </div>
   );
 }
