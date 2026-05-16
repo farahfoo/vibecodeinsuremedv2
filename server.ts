@@ -31,7 +31,7 @@ async function startServer() {
       }
 
       const chat = genAI.chats.create({
-        model: 'gemini-3-flash-preview',
+        model: 'gemini-1.5-flash',
         config: {
           systemInstruction: `You are an AI Medical Insurance Assistant for MedClaim (VibeCode InsureMed).
           Your goal is to help users understand their medical insurance policies, explain common insurance terms (deductibles, premiums, co-payments), and guide them through the claim simulation process.
